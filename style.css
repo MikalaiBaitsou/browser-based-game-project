@@ -1,0 +1,208 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    background: rgb(55, 83, 99) url("https://i.ibb.co/GWDX2pK/a7e9b544-4c94-4e21-991a-efdf68f2e0ce.webp") center/cover no-repeat;
+    background-image: url("https://i.ibb.co/GWDX2pK/a7e9b544-4c94-4e21-991a-efdf68f2e0ce.webp");
+}  
+
+
+#game-container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#hangman-parts {
+    width: 100px;
+    height: 150px;
+    position: relative;
+    margin: 0 auto 20px;
+}
+
+.part {
+    position: absolute;
+    display: none;
+}
+
+#head {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: black;
+    top: 0;
+    left: 37.5px;
+}
+
+#body {
+    width: 5px;
+    height: 60px;
+    background: black;
+    top: 25px;
+    left: 47px;
+}
+
+#left-arm, #right-arm {
+    width: 30px;
+    height: 5px;
+    background: black;
+    top: 40px;
+}
+
+#left-arm {
+    transform: rotate(-45deg);
+    left: 20px;
+}
+
+#right-arm {
+    transform: rotate(45deg);
+    left: 50px;
+}
+
+#left-leg, #right-leg {
+    width: 5px;
+    height: 40px;
+    background: black;
+    top: 69px;
+    
+
+}
+
+#left-leg {
+    transform: rotate(45deg);
+    left: 39px;
+}
+
+#right-leg {
+    transform: rotate(-45deg);
+    left: 55px;
+}
+
+/* New keyboard styles */
+#keyboard {
+    margin: 20px auto;
+    width: 400px;
+}
+
+.key-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.key {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    border: 1px solid #ccc;
+    background: #f5f5f5;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.key:hover {
+    background: #e0e0e0;
+}
+
+.key:active {
+    background: #d0d0d0;
+}
+
+.key.disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+    color: #888;
+}
+
+input, button {
+    margin: 5px;
+    padding: 5px;
+}
+
+#message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.fireworks {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+.firework {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 33% 33%, var(--firework-color), var(--firework-color));
+    animation: explode 2s ease-out forwards;
+}
+
+.sparkle {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    border-radius: 50%;
+    animation: sparkle 1s linear;
+}
+
+@keyframes explode {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(5);
+        opacity: 0;
+    }
+}
+
+@keyframes sparkle {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(3) translate(50px, 50px);
+        opacity: 0;
+    }
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+
+.black-screen {
+    animation: blink 0.5s step-end infinite;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 9999; /* Ensure it's above everything else */
+    opacity: 1;
+    transition: opacity 0s ease; /* Instant transition for show */
+}
+
+.black-screen.hide {
+    opacity: 0;
+    transition: opacity 1s ease; /* Fade out over 1 second */
+}

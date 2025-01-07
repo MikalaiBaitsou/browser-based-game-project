@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="word-list.js"></script>
+    <script defer src="app.js"></script>
+
+</head>
+<body>
+    <div id="game-container">
+        <h1>Hangman</h1>
+        <div id="hangman-parts">
+            <div id="head" class="part"></div>
+            <div id="body" class="part"></div>
+            <div id="left-arm" class="part"></div>
+            <div id="right-arm" class="part"></div>
+            <div id="left-leg" class="part"></div>
+            <div id="right-leg" class="part"></div>
+        </div>
+        <div id="word-display"></div>
+        <p>Guesses Remaining: <span id="guesses-remaining">6</span></p>
+        <p>Hint: <span id="hint-display"></span></p>
+        <p>Guessed Letters: <span id="guessed-letters"></span></p>
+        <div id="keyboard"></div>
+        <button id="new-game">New Game</button>
+        <p id="message"></p>
+    </div>
+    <audio id="correct-sound" src="assets/correct.wav"></audio>
+    <audio id="incorrect-sound" src="assets/incorrect.wav"></audio>
+    <audio id="win-sound" src="assets/win.mp3"></audio>
+    <audio id="lose-sound" src="assets/lose.flac"></audio>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
