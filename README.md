@@ -6,7 +6,7 @@
 <div align="center" id="header">
    
 # HANGMAN
-                                                            
+</div>
 
 
 
