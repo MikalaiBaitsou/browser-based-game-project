@@ -26,22 +26,22 @@
 
 
 ## :notebook_with_decorative_cover: Description   
----------------------------------------------------------------------------------------------------------------------------
+
 A hangman game where the player must guess a words from a hint provided and type that word out using an on-screen keyboard.  
 
 ## :rocket: How to Win
----------------------------------------------------------------------------------------------------------------------------
+
 Guess the word correctly from the hint, you have 6 tries. 
 
 ## :camera: Screenshots
---------------------------------------------------------------------------------------------------------------------------
+
 ![image](https://github.com/user-attachments/assets/108a3039-c999-4ae1-91f5-5620b80eb094)
 
 ![Screenshot 2025-01-08 100205](https://github.com/user-attachments/assets/e2210d90-e59e-4081-b1fc-ddf967223bb4)
 
 
-💻 Technologies Used
---------------------------------------------------------------------------------------------------------------------------
+## :desktop_computer: Technologies Used
+
 ![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)
 ![CSS3](https://img.shields.io/badge/-CSS_Grid-05122A?style=flat&logo=css3) 
 ![HTML5](https://img.shields.io/badge/-HTML5-05122A?style=flat&logo=html5)  
