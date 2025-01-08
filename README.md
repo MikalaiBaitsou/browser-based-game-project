@@ -7,7 +7,7 @@
    
 # HANGMAN
 
-**Created by [Mikalai Baitsou](www.linkedin.com/in/mikalaibaitsou/)**
+**Created by [Mikalai Baitsou](https://www.linkedin.com/in/mikalai-baitsou)**
 
 
 </div>
