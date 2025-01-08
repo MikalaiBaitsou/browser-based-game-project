@@ -8,5 +8,6 @@ Guess the word correctly from the hint, you have 6 tries.
 
 📸 Screenshots
 --------------------------------------------------------------------------------------------------------------------------
+![image](https://github.com/user-attachments/assets/108a3039-c999-4ae1-91f5-5620b80eb094)
 
 ![Screenshot 2025-01-08 100205](https://github.com/user-attachments/assets/e2210d90-e59e-4081-b1fc-ddf967223bb4)
