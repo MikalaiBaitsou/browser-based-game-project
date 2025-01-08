@@ -6,7 +6,12 @@
 <div align="center" id="header">
    
 # HANGMAN
+
+**Created by [Mikalai Baitsou]
+
+
 </div>
+
 
 
 
