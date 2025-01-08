@@ -38,3 +38,13 @@ Guess the word correctly from the hint, you have 6 tries.
 ![image](https://github.com/user-attachments/assets/108a3039-c999-4ae1-91f5-5620b80eb094)
 
 ![Screenshot 2025-01-08 100205](https://github.com/user-attachments/assets/e2210d90-e59e-4081-b1fc-ddf967223bb4)
+
+
+💻 Technologies Used
+--------------------------------------------------------------------------------------------------------------------------
+![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)
+![CSS3](https://img.shields.io/badge/-CSS_Grid-05122A?style=flat&logo=css3) 
+![HTML5](https://img.shields.io/badge/-HTML5-05122A?style=flat&logo=html5)  
+![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)
+![Github](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
+![VSCode](https://img.shields.io/badge/-VS_Code-05122A?style=flat&logo=visualstudio)
