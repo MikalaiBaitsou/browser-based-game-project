@@ -74,5 +74,11 @@ Guess the word correctly from the hint, you have 6 tries.
     </ul>
 </details>
 
+## :artificial_satellite: Upcoming Features
+
+-  Add choose your words button
+-  Add game mode for kids and for grown ups
+-  Add more colors
+
 
 
