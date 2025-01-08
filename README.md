@@ -9,12 +9,18 @@
 
 **Created by [Mikalai Baitsou](https://github.com/MikalaiBaitsou)**
 
-<a href="https://github.com/MikaliBaitsou/" target="_blank">
-
- 
 
 </div>
 
+<div align="center" id="socialbuttons">
+
+<a href="https://github.com/MikaliBaitsou/" target="_blank">
+   <img src="https://img.shields.io/badge/-Github:%20github.com/mikalaibaitsou-darkgreen?style=flat&logo=medium"/>
+   </a>
+<a href="mailto:mbaitsiu@gmail.com" target="_blank">
+      <img src="https://img.shields.io/badge/-GMail:%20mbaitsou@gmail.com-c14438?style=flat&logo=Gmail&``logoColor=blue">
+   </a>
+</div>
 
 
 
