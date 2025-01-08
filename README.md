@@ -18,6 +18,9 @@
 <a href="mailto:mbaitsiu@gmail.com" target="_blank">
       <img src="https://img.shields.io/badge/-GMail:%20mbaitsou@gmail.com-c14438?style=flat&logo=Gmail&``logoColor=blue">
    </a>
+   <a href="https://www.linkedin.com/in/mikalai-baitsou-6a8803345" target="_blank">
+      <img src="https://img.shields.io/badge/-LinkedIn:%20linkedin.com/in/mikalai&#8211;baitsou-blue?style=flat&``logo=Linkedin&logoColor=white">
+   </a> 
 </div>
 
 
