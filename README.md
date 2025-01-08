@@ -80,5 +80,9 @@ Guess the word correctly from the hint, you have 6 tries.
 -  Add game mode for kids and for grown ups
 -  Add more colors
 
+## :loud_sound: Attributions
+
+- All sounds are taken from https://freesound.org/
+
 
 
