@@ -25,15 +25,15 @@
 
 
 
-📝 Description
+## :notebook_with_decorative_cover: Description   
 ---------------------------------------------------------------------------------------------------------------------------
 A hangman game where the player must guess a words from a hint provided and type that word out using an on-screen keyboard.  
 
-🎯 How to Win
+## :rocket: How to Win
 ---------------------------------------------------------------------------------------------------------------------------
 Guess the word correctly from the hint, you have 6 tries. 
 
-📸 Screenshots
+## :camera: Screenshots
 --------------------------------------------------------------------------------------------------------------------------
 ![image](https://github.com/user-attachments/assets/108a3039-c999-4ae1-91f5-5620b80eb094)
 
