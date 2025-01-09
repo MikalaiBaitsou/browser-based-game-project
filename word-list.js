@@ -52,6 +52,7 @@ export const wordsWithHints = [
   
 
 
+
   export const kidsWordList = [
     { word: "apple", hint: "A red or green fruit often found in pies." },
     { word: "banana", hint: "A long yellow fruit loved by monkeys." },
