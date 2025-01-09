@@ -1,0 +1,81 @@
+   User Stories:          
+
+1---As a user, I want to see a clean landing page without any errors or broken images.
+
+2---As a user, I want to be able to click buttons on on-screen keyboard.
+
+3---As a user, I want to see if my game ends after 6 wrong guesses.
+
+4---As a user, I want to have messages stating if I won or lost the game.
+
+5---As a user, I want to have a "PLay Again" button so that I can play another game.
+
+6---As a user, I want to have sounds in my game.
+
+7---As a user, I want to have visual effects for winning or loosing the game.
+
+Pseudocode:
+
+
+//IMPORT kidsWordList FROM 'word-list.js'
+
+//GLOBAL VARIABLES:
+    word, hint, guessedLetters, remainingGuesses, gameOver
+
+//FUNCTION initializeGame:
+    SELECT random word and hint FROM kidsWordList
+    RESET guessedLetters, remainingGuesses, gameOver
+    CALL updateDisplay, updateKeyboard
+
+//FUNCTION updateDisplay:
+    DISPLAY word with guessed letters or underscores
+    UPDATE remaining guesses and hint display
+    SHOW hangman parts based on guesses
+    CHECK if game is won or lost
+    CALL updateKeyboard
+
+//FUNCTION handleGuess(letter):
+    IF game not over THEN
+        IF letter valid AND not guessed THEN
+            ADD letter to guessedLetters
+            IF letter not in word THEN
+                DECREMENT remainingGuesses
+            PLAY appropriate sound
+            CALL updateDisplay
+
+//FUNCTION endGame(won):
+    SET gameOver to true
+    DISPLAY win/loss message
+    DISABLE keyboard
+    PLAY win/lose sound
+    IF won THEN
+        SHOW fireworks
+    ELSE
+        SHOW black screen
+
+//FUNCTION showBlackScreen:
+    CREATE black screen element
+    ANIMATE screen to blink then fade out
+
+//FUNCTION showFireworks:
+    CREATE fireworks container
+    FOR 30 fireworks:
+        CREATE random positioned firework with random color
+        ADD sparkles to each firework
+        REMOVE firework after animation
+
+//FUNCTION setupKeyboard:
+    CREATE and SETUP keyboard layout
+
+//FUNCTION updateKeyboard(reset):
+    IF reset THEN
+        RESET keyboard
+    ELSE
+        UPDATE key states based on guessed letters
+
+//FUNCTION playSound(type):
+    PLAY sound of given type
+
+//ON DOM CONTENT LOADED:
+    CALL initializeGame
+    SET UP event listener for new game button
