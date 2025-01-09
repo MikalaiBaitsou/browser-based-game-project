@@ -8,6 +8,7 @@
 # HANGMAN
 
 **Created by [Mikalai Baitsou](https://www.linkedin.com/in/mikalai-baitsou-6a8803345)**
+### [CLICK TO PLAY](https://mikalaibaitsou.github.io/browser-based-game-project/)
 
 
 </div>
