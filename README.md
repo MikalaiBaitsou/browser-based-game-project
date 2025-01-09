@@ -58,7 +58,7 @@ https://mikalaibaitsou.github.io/browser-based-game-project/
 
 ## :artificial_satellite: Upcoming Features
 
--  Add choose your words button
+
 -  Add game mode for kids and for grown ups
 -  Add more colors
 
