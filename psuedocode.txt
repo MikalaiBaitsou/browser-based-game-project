@@ -19,22 +19,22 @@ Pseudocode:
 
 //IMPORT kidsWordList FROM 'word-list.js'
 
-//GLOBAL VARIABLES:
+//SET GLOBAL VARIABLES:
     word, hint, guessedLetters, remainingGuesses, gameOver
 
-//FUNCTION initializeGame:
+//CREATE FUNCTION initializeGame:
     SELECT random word and hint FROM kidsWordList
     RESET guessedLetters, remainingGuesses, gameOver
     CALL updateDisplay, updateKeyboard
 
-//FUNCTION updateDisplay:
+//CREATE FUNCTION updateDisplay:
     DISPLAY word with guessed letters or underscores
     UPDATE remaining guesses and hint display
     SHOW hangman parts based on guesses
     CHECK if game is won or lost
     CALL updateKeyboard
 
-//FUNCTION handleGuess(letter):
+//CREATE FUNCTION handleGuess(letter):
     IF game not over THEN
         IF letter valid AND not guessed THEN
             ADD letter to guessedLetters
@@ -43,7 +43,7 @@ Pseudocode:
             PLAY appropriate sound
             CALL updateDisplay
 
-//FUNCTION endGame(won):
+//CREATE FUNCTION endGame(won):
     SET gameOver to true
     DISPLAY win/loss message
     DISABLE keyboard
@@ -53,27 +53,27 @@ Pseudocode:
     ELSE
         SHOW black screen
 
-//FUNCTION showBlackScreen:
+//CREATE FUNCTION showBlackScreen:
     CREATE black screen element
     ANIMATE screen to blink then fade out
 
-//FUNCTION showFireworks:
+//CREATE FUNCTION showFireworks:
     CREATE fireworks container
     FOR 30 fireworks:
         CREATE random positioned firework with random color
         ADD sparkles to each firework
         REMOVE firework after animation
 
-//FUNCTION setupKeyboard:
+//CREATE FUNCTION setupKeyboard:
     CREATE and SETUP keyboard layout
 
-//FUNCTION updateKeyboard(reset):
+//CREATE FUNCTION updateKeyboard(reset):
     IF reset THEN
         RESET keyboard
     ELSE
         UPDATE key states based on guessed letters
 
-//FUNCTION playSound(type):
+//CREATE FUNCTION playSound(type):
     PLAY sound of given type
 
 //ON DOM CONTENT LOADED:
