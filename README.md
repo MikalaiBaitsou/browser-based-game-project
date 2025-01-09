@@ -65,6 +65,7 @@ https://mikalaibaitsou.github.io/browser-based-game-project/
 ## :loud_sound: Attributions
 
 - All sounds are taken from https://freesound.org/
+- Image was uploaded to https://imgbb.com/
 
 
 
