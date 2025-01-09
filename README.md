@@ -50,29 +50,9 @@ Guess the word correctly from the hint, you have 6 tries.
 ![VSCode](https://img.shields.io/badge/-VS_Code-05122A?style=flat&logo=visualstudio)
 
 
-## :video_game: Getting Started 
+## :video_game: Game Link 
 
-<h3> :calling: Installation Instructions </h3>
-<details open>
-<summary>Installation</summary>
-<p></p>
-<ul>
-    <li>Fork and Clone this Repo</li>
-    <li>Copy the path to <code>index.html</code> and paste it in your browser to run</li>
-</ul>
-</details>
-<p></p>
-
-<h3>How to Use </h3>
-<details open>
-<summary>How to Play the Game</summary>
-<ul>
-   <p></p>
-    <li>Read the hint</li>
-    <li>Click the buttons on on-screen keyboard</li>
-    <li>Guess the word correctly</li>
-    </ul>
-</details>
+https://mikalaibaitsou.github.io/browser-based-game-project/
 
 ## :artificial_satellite: Upcoming Features
 
