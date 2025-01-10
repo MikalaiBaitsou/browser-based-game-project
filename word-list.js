@@ -1,4 +1,4 @@
-export const wordsWithHints = [
+const wordsWithHints = [
     { word: "algorithm", hint: "A step-by-step procedure for solving a problem." },
     { word: "python", hint: "A popular programming language." },
     { word: "astronaut", hint: "Someone who travels to space." },
@@ -53,7 +53,7 @@ export const wordsWithHints = [
 
 
 
-  export const kidsWordList = [
+   const kidsWordList = [
     { word: "apple", hint: "A red or green fruit often found in pies." },
     { word: "banana", hint: "A long yellow fruit loved by monkeys." },
     { word: "grape", hint: "A small, round fruit used to make wine." },
