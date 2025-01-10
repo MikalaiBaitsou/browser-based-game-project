@@ -1,6 +1,4 @@
 
-// Import words from word-list.js
-
 
 
 // Set global variables for the game 
